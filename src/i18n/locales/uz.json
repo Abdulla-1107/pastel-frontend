@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "products": "Mahsulotlar",
+    "faq": "Savol-javob",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "Muhabbat Pastellari",
+    "subtitle": "2021 yildan beri yuqori sifatli pastel va Super Satin mahsulotlari",
+    "description": "Bozordagi eng yirik o'lchamdagi, rangini yo'qotmaydigan, burmani yo'qotmaydigan premium tekstil mahsulotlari",
+    "shopNow": "Xarid qiling",
+    "learnMore": "Batafsil"
+  },
+  "features": {
+    "title": "Nima uchun bizni tanlaysiz?",
+    "quality": {
+      "title": "Yuqori sifat",
+      "desc": "100% HB, rang o'chmaydi, burmani yo'qotmaydi"
+    },
+    "size": {
+      "title": "Katta o'lcham",
+      "desc": "Bozordagi standart o'lchamdan kattaroq"
+    },
+    "variety": {
+      "title": "Keng assortiment",
+      "desc": "6 xil mahsulot turi mavjud"
+    },
+    "experience": {
+      "title": "Tajriba",
+      "desc": "2021 yildan beri ishonchli xizmat"
+    }
+  },
+  "video": {
+    "title": "Sifatni his qiling",
+    "subtitle": "Sizning uyqungizni o'zgartiruvchi premium yotoq to'shaklarini qanday yaratishimizni tomosha qiling"
+  },
+  "products": {
+    "title": "Mahsulotlar",
+    "viewAll": "Barchasini ko'rish",
+    "addToCart": "Savatga qo'shish",
+    "viewDetails": "Batafsil",
+    "price": "Narx",
+    "pastel": {
+      "name": "Premium Pastel",
+      "desc": "Yuqori sifatli, katta o'lchamdagi pastel mahsuloti. 4 yil davomida ishlab chiqarilgan va sotilgan."
+    },
+    "superSatin": {
+      "name": "Super Satin",
+      "desc": "Burmani yo'qotmaydi, rang o'chmaydi, 100% HB. Yuqori sifatli to'qimachilik mahsuloti.",
+      "twoPersonSet": "2 kishilik to'plam",
+      "onePersonSet": "1 kishilik to'plam"
+    }
+  },
+  "cart": {
+    "title": "Savat",
+    "empty": "Savatingiz bo'sh",
+    "continueShopping": "Xarid qilishni davom ettiring",
+    "total": "Jami",
+    "checkout": "Buyurtma berish",
+    "remove": "O'chirish",
+    "quantity": "Miqdor"
+  },
+  "order": {
+    "title": "Buyurtma berish",
+    "fullName": "To'liq ismingiz",
+    "phone": "Telefon raqam",
+    "address": "Manzil",
+    "agreeToTerms": "Taklif shartlariga roziman",
+    "viewOffer": "Taklifni ko'rish",
+    "submit": "Buyurtmani tasdiqlash",
+    "success": "Buyurtmangiz muvaffaqiyatli qabul qilindi!",
+    "error": "Iltimos, barcha maydonlarni to'ldiring va shartlarga rozilik bering"
+  },
+  "offer": {
+    "title": "Taklif shartnomasi",
+    "content": "Muhabbat Pastellari tomonidan taqdim etilayotgan mahsulotlarni xarid qilish orqali siz quyidagi shartlarga rozilik bildirasiz:\n\n1. Mahsulotlar yuqori sifatli materiallardan tayyorlangan.\n2. Barcha mahsulotlar qonuniy yo'l bilan sotiladi.\n3. Narxlar veb-saytda ko'rsatilganidek qo'llaniladi.\n4. Qaytarish va almashtirish mahsulot yetkazib berilgandan keyin 7 kun ichida mumkin.\n5. Buyurtmani bekor qilish yetkazib berishdan oldin amalga oshirilishi mumkin.\n6. To'lov naqd yoki bank o'tkazmasi orqali amalga oshiriladi.\n7. Yetkazib berish 3-5 ish kunida amalga oshiriladi.\n\nQo'shimcha ma'lumot uchun biz bilan bog'laning.",
+    "close": "Yopish"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "story": "Bizning hikoya",
+    "storyContent": "Muhabbat Pastellari 2021 yilda tashkil etilgan va shundan beri yuqori sifatli pastel va tekstil mahsulotlarini ishlab chiqarish va sotish bilan shug'ullanmoqda. Bizning asosiy maqsadimiz - mijozlarimizga eng yaxshi sifat va xizmatni taqdim etish.",
+    "mission": "Bizning missiyamiz",
+    "missionContent": "Biz har bir mijozimizga yuqori sifatli, uzoq umr ko'radigan va chiroyli mahsulotlar taqdim etishga intilamiz. Bizning mahsulotlarimiz bozordagi standart o'lchamlardan kattaroq va rang berqarorligiga ega.",
+    "quality": "Sifat kafolati",
+    "qualityContent": "Barcha mahsulotlarimiz qat'iy sifat nazoratidan o'tadi. Biz 100% HB materiallardan foydalanamiz va mahsulotlarimiz burmani yo'qotmaydi, rang o'chmaydi."
+  },
+  "faq": {
+    "title": "Tez-tez so'raladigan savollar",
+    "q1": "Mahsulotlar qanday materialdan tayyorlangan?",
+    "a1": "Barcha mahsulotlarimiz 100% yuqori sifatli HB materialdan tayyorlangan bo'lib, ular uzoq muddat xizmat qiladi va rangini yo'qotmaydi.",
+    "q2": "Yetkazib berish qancha vaqt oladi?",
+    "a2": "Odatda, yetkazib berish 3-5 ish kunida amalga oshiriladi. Mahalliy hududlarda yetkazib berish tezroq bo'lishi mumkin.",
+    "q3": "Qaytarish va almashtirish mumkinmi?",
+    "a3": "Ha, mahsulot yetkazib berilgandan keyin 7 kun ichida qaytarish yoki almashtirish mumkin. Mahsulot zararsiz va dastlabki holatida bo'lishi kerak.",
+    "q4": "To'lov usullari qanday?",
+    "a4": "Biz naqd va bank o'tkazmasi orqali to'lovni qabul qilamiz. To'lov mahsulot yetkazilganda yoki buyurtma berishda amalga oshirilishi mumkin.",
+    "q5": "Mahsulotlar o'lchami qanday?",
+    "a5": "Bizning mahsulotlarimiz bozordagi standart o'lchamlardan kattaroq. Aniq o'lchamlar har bir mahsulot sahifasida ko'rsatilgan.",
+    "q6": "Ulgurji sotib olish mumkinmi?",
+    "a6": "Ha, ulgurji buyurtmalar uchun biz maxsus narxlar taklif qilamiz. Batafsil ma'lumot uchun biz bilan bog'laning."
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "name": "Ismingiz",
+    "email": "Email",
+    "message": "Xabar",
+    "send": "Yuborish",
+    "success": "Xabaringiz yuborildi!",
+    "info": "Aloqa ma'lumotlari",
+    "address": "Manzil: Toshkent, O'zbekiston",
+    "phone": "Telefon: +998 XX XXX XX XX",
+    "emailLabel": "Email: info@muhabbatpastellari.uz"
+  },
+  "footer": {
+    "description": "2021 yildan beri yuqori sifatli pastel va tekstil mahsulotlari.",
+    "quickLinks": "Tezkor havolalar",
+    "followUs": "Bizni kuzating",
+    "allRightsReserved": "Barcha huquqlar himoyalangan"
+  }
+}

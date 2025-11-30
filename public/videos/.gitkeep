@@ -1,0 +1,20 @@
+# Videos Directory
+
+Store all video files here.
+
+## Usage:
+- Place MP4 or WebM video files in this folder
+- Reference them using absolute paths: `/videos/your-video.mp4`
+- Example: `/videos/product-showcase.mp4`
+
+## Supported Formats:
+- MP4 (recommended)
+- WebM
+
+## File Naming:
+- Use lowercase letters
+- No spaces (use hyphens instead)
+- Example: product-showcase.mp4, behind-the-scenes.mp4
+
+## External Video Embeds:
+For YouTube, TikTok, or Instagram Reels, use iframe embeds instead of this folder.

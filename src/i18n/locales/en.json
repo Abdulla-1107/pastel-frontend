@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Muhabbat Pastellari",
+    "subtitle": "Premium pastel and Super Satin products since 2021",
+    "description": "The largest size, color-fast, and shrink-resistant premium textile products in the market",
+    "shopNow": "Shop Now",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Why Choose Us?",
+    "quality": {
+      "title": "High Quality",
+      "desc": "100% HB, color-fast, shrink-resistant"
+    },
+    "size": {
+      "title": "Large Size",
+      "desc": "Larger than standard market sizes"
+    },
+    "variety": {
+      "title": "Wide Range",
+      "desc": "6 different product types available"
+    },
+    "experience": {
+      "title": "Experience",
+      "desc": "Trusted service since 2021"
+    }
+  },
+  "video": {
+    "title": "Experience the Quality",
+    "subtitle": "Watch how we create premium bedding that transforms your sleep experience"
+  },
+  "products": {
+    "title": "Products",
+    "viewAll": "View All",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "price": "Price",
+    "pastel": {
+      "name": "Premium Pastel",
+      "desc": "High-quality, large-sized pastel product. Produced and sold for 4 years."
+    },
+    "superSatin": {
+      "name": "Super Satin",
+      "desc": "No shrinkage, color-fast, 100% HB. Premium quality textile product.",
+      "twoPersonSet": "2-person set",
+      "onePersonSet": "1-person set"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "total": "Total",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "quantity": "Quantity"
+  },
+  "order": {
+    "title": "Place Order",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "address": "Address",
+    "agreeToTerms": "I agree to the terms and conditions",
+    "viewOffer": "View Offer",
+    "submit": "Confirm Order",
+    "success": "Your order has been successfully placed!",
+    "error": "Please fill in all fields and agree to the terms"
+  },
+  "offer": {
+    "title": "Terms and Conditions",
+    "content": "By purchasing products offered by Muhabbat Pastellari, you agree to the following terms:\n\n1. Products are made from high-quality materials.\n2. All products are sold legally.\n3. Prices apply as shown on the website.\n4. Returns and exchanges are possible within 7 days of product delivery.\n5. Order cancellation can be done before delivery.\n6. Payment is made in cash or by bank transfer.\n7. Delivery is carried out within 3-5 business days.\n\nFor more information, please contact us.",
+    "close": "Close"
+  },
+  "about": {
+    "title": "About Us",
+    "story": "Our Story",
+    "storyContent": "Muhabbat Pastellari was founded in 2021 and has since been producing and selling high-quality pastel and textile products. Our main goal is to provide our customers with the best quality and service.",
+    "mission": "Our Mission",
+    "missionContent": "We strive to provide each of our customers with high-quality, long-lasting, and beautiful products. Our products are larger than standard market sizes and have excellent color retention.",
+    "quality": "Quality Assurance",
+    "qualityContent": "All our products undergo strict quality control. We use 100% HB materials and our products don't shrink or fade."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "What materials are the products made from?",
+    "a1": "All our products are made from 100% high-quality HB material that lasts long and doesn't fade.",
+    "q2": "How long does delivery take?",
+    "a2": "Typically, delivery is completed within 3-5 business days. Local deliveries may be faster.",
+    "q3": "Are returns and exchanges possible?",
+    "a3": "Yes, returns or exchanges are possible within 7 days of product delivery. The product must be undamaged and in its original condition.",
+    "q4": "What are the payment methods?",
+    "a4": "We accept cash and bank transfer payments. Payment can be made upon delivery or when placing an order.",
+    "q5": "What are the product sizes?",
+    "a5": "Our products are larger than standard market sizes. Exact dimensions are shown on each product page.",
+    "q6": "Is wholesale purchasing available?",
+    "a6": "Yes, we offer special prices for wholesale orders. Contact us for more details."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Your message has been sent!",
+    "info": "Contact Information",
+    "address": "Address: Tashkent, Uzbekistan",
+    "phone": "Phone: +998 XX XXX XX XX",
+    "emailLabel": "Email: info@muhabbatpastellari.uz"
+  },
+  "footer": {
+    "description": "Premium quality pastel and textile products since 2021.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All Rights Reserved"
+  }
+}
