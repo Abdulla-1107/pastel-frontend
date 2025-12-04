@@ -1,13 +1,13 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Shield, Ruler, Package, Award, Play } from 'lucide-react';
-import ProductCard from '@/components/ProductCard';
-import VideoPlayer from '@/components/VideoPlayer';
-import { useCart } from '@/contexts/CartContext';
-import { toast } from 'sonner';
-import { useRef } from 'react';
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Shield, Ruler, Package, Award, Play } from "lucide-react";
+import ProductCard from "@/components/ProductCard";
+import VideoPlayer from "@/components/VideoPlayer";
+import { useCart } from "@/contexts/CartContext";
+import { toast } from "sonner";
+import { useRef } from "react";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -15,7 +15,7 @@ const Home = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
-    offset: ["start start", "end start"]
+    offset: ["start start", "end start"],
   });
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
@@ -23,53 +23,57 @@ const Home = () => {
   const features = [
     {
       icon: Shield,
-      title: t('features.quality.title'),
-      description: t('features.quality.desc'),
+      title: t("features.quality.title"),
+      description: t("features.quality.desc"),
     },
     {
       icon: Ruler,
-      title: t('features.size.title'),
-      description: t('features.size.desc'),
+      title: t("features.size.title"),
+      description: t("features.size.desc"),
     },
     {
       icon: Package,
-      title: t('features.variety.title'),
-      description: t('features.variety.desc'),
+      title: t("features.variety.title"),
+      description: t("features.variety.desc"),
     },
     {
       icon: Award,
-      title: t('features.experience.title'),
-      description: t('features.experience.desc'),
+      title: t("features.experience.title"),
+      description: t("features.experience.desc"),
     },
   ];
 
   const featuredProducts = [
     {
-      id: 'pastel-1',
-      name: t('products.pastel.name'),
-      description: t('products.pastel.desc'),
+      id: "pastel-1",
+      name: t("products.pastel.name"),
+      description: t("products.pastel.desc"),
       price: 200000,
-      image: '/images/pastel-product.jpg',
+      image: "/images/pastel-product.jpg",
     },
     {
-      id: 'super-satin-2p',
-      name: `${t('products.superSatin.name')} - ${t('products.superSatin.twoPersonSet')}`,
-      description: t('products.superSatin.desc'),
+      id: "super-satin-2p",
+      name: `${t("products.superSatin.name")} - ${t(
+        "products.superSatin.twoPersonSet"
+      )}`,
+      description: t("products.superSatin.desc"),
       price: 350000,
-      image: '/images/super-satin.jpg',
-      variant: '2-person',
+      image: "/images/super-satin.jpg",
+      variant: "2-person",
     },
     {
-      id: 'super-satin-1p',
-      name: `${t('products.superSatin.name')} - ${t('products.superSatin.onePersonSet')}`,
-      description: t('products.superSatin.desc'),
+      id: "super-satin-1p",
+      name: `${t("products.superSatin.name")} - ${t(
+        "products.superSatin.onePersonSet"
+      )}`,
+      description: t("products.superSatin.desc"),
       price: 250000,
-      image: '/images/super-satin.jpg',
-      variant: '1-person',
+      image: "/images/super-satin.jpg",
+      variant: "1-person",
     },
   ];
 
-  const handleAddToCart = (product: typeof featuredProducts[0]) => {
+  const handleAddToCart = (product: (typeof featuredProducts)[0]) => {
     addToCart({
       id: product.id,
       name: product.name,
@@ -77,27 +81,29 @@ const Home = () => {
       image: product.image,
       variant: product.variant,
     });
-    toast.success(t('products.addToCart'));
+    toast.success(t("products.addToCart"));
   };
 
   return (
     <div className="min-h-screen">
       {/* Hero Section with Parallax */}
-      <section ref={heroRef} className="relative h-[600px] md:h-[700px] overflow-hidden">
+      <section
+        ref={heroRef}
+        className="relative h-[600px] md:h-[700px] overflow-hidden"
+      >
         <motion.div
           style={{ y }}
           className="absolute inset-0 bg-cover bg-center scale-110"
-          
         >
-          <img 
-            src="/images/hero-image.jpg" 
-            alt="Hero" 
+          <img
+            src="/images/hero-image.jpg"
+            alt="Hero"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 to-background/50" />
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           style={{ opacity }}
           className="relative container mx-auto px-4 h-full flex items-center"
         >
@@ -113,27 +119,27 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              {t('hero.title')}
+              {t("hero.title")}
             </motion.h1>
-            
+
             <motion.p
               className="text-xl md:text-2xl text-muted-foreground mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              {t('hero.subtitle')}
+              {t("hero.subtitle")}
             </motion.p>
-            
+
             <motion.p
               className="text-lg text-muted-foreground mb-8"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
             >
-              {t('hero.description')}
+              {t("hero.description")}
             </motion.p>
-            
+
             <motion.div
               className="flex flex-wrap gap-4"
               initial={{ opacity: 0, y: 20 }}
@@ -141,14 +147,21 @@ const Home = () => {
               transition={{ delay: 0.8 }}
             >
               <Link to="/products">
-                <Button size="lg" className="text-lg px-8 hover-lift glow-primary">
+                <Button
+                  size="lg"
+                  className="text-lg px-8 hover-lift glow-primary"
+                >
                   <Play className="h-5 w-5 mr-2" />
-                  {t('hero.shopNow')}
+                  {t("hero.shopNow")}
                 </Button>
               </Link>
               <Link to="/about">
-                <Button size="lg" variant="outline" className="text-lg px-8 hover-lift">
-                  {t('hero.learnMore')}
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg px-8 hover-lift"
+                >
+                  {t("hero.learnMore")}
                 </Button>
               </Link>
             </motion.div>
@@ -167,10 +180,11 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              {t('video.title') || 'Experience the Quality'}
+              {t("video.title") || "Experience the Quality"}
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              {t('video.subtitle') || 'Watch how we create premium bedding that transforms your sleep experience'}
+              {t("video.subtitle") ||
+                "Watch how we create premium bedding that transforms your sleep experience"}
             </p>
           </motion.div>
 
@@ -182,7 +196,7 @@ const Home = () => {
             className="max-w-5xl mx-auto"
           >
             <VideoPlayer
-              src="/videos/product-showcase.mp4"
+              src="/videos/video_1.mp4"
               poster="/images/hero-image.jpg"
               title="Muhabbat Pastellari - Premium Bedding"
               className="aspect-video"
@@ -200,9 +214,9 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-heading font-bold text-center mb-16"
           >
-            {t('features.title')}
+            {t("features.title")}
           </motion.h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
               <motion.div
@@ -214,7 +228,7 @@ const Home = () => {
                 className="text-center p-6 rounded-lg bg-card shadow-card hover-lift border border-border/50 backdrop-blur-sm"
               >
                 <motion.div
-                whileHover={{ scale: 1.15, rotate: 360 }}
+                  whileHover={{ scale: 1.15, rotate: 360 }}
                   transition={{ type: "spring", stiffness: 260, damping: 20 }}
                   className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4 glow-primary"
                 >
@@ -240,11 +254,11 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              {t('products.title')}
+              {t("products.title")}
             </h2>
             <Link to="/products">
               <Button variant="link" className="text-lg">
-                {t('products.viewAll')} →
+                {t("products.viewAll")} →
               </Button>
             </Link>
           </motion.div>

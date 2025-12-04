@@ -1,22 +1,26 @@
-import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { Facebook, Instagram, Twitter, Phone, Mail, MapPin } from 'lucide-react';
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { Facebook, Instagram, Send, Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   const { t } = useTranslation();
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Facebook, href: "#", label: "Facebook" },
+    { icon: Instagram, href: "#", label: "Instagram" },
+    {
+      icon: Send,
+      href: "https://t.me/MUHABBATpastellariii",
+      label: "Telegram",
+    },
   ];
 
   const quickLinks = [
-    { path: '/', label: t('nav.home') },
-    { path: '/about', label: t('nav.about') },
-    { path: '/products', label: t('nav.products') },
-    { path: '/faq', label: t('nav.faq') },
-    { path: '/contact', label: t('nav.contact') },
+    { path: "/", label: t("nav.home") },
+    { path: "/about", label: t("nav.about") },
+    { path: "/products", label: t("nav.products") },
+    { path: "/faq", label: t("nav.faq") },
+    { path: "/contact", label: t("nav.contact") },
   ];
 
   return (
@@ -29,12 +33,12 @@ const Footer = () => {
               Muhabbat Pastellari
             </h3>
             <p className="text-sm text-muted-foreground">
-              {t('footer.description')}
+              {t("footer.description")}
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+998 XX XXX XX XX</span>
+                <span>+998 99 902 62 61</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
@@ -50,7 +54,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-heading font-semibold mb-4">
-              {t('footer.quickLinks')}
+              {t("footer.quickLinks")}
             </h4>
             <nav className="flex flex-col space-y-2">
               {quickLinks.map((link) => (
@@ -68,7 +72,7 @@ const Footer = () => {
           {/* Social */}
           <div>
             <h4 className="text-lg font-heading font-semibold mb-4">
-              {t('footer.followUs')}
+              {t("footer.followUs")}
             </h4>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -87,7 +91,22 @@ const Footer = () => {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            © {new Date().getFullYear()} Muhabbat Pastellari. {t('footer.allRightsReserved')}
+            © {new Date().getFullYear()} Muhabbat Pastellari.{" "}
+            {t("footer.allRightsReserved")}
+          </p>
+
+          {/* Parvoz IT Company */}
+          <p className="mt-2">
+            Ishlab chiqildi{" "}
+            <a
+              href="https://parvozcompany.uz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              Parvoz IT Company
+            </a>{" "}
+            tomonidan.
           </p>
         </div>
       </div>

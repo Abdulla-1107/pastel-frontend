@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: Phone,
       label: t('contact.phone'),
-      value: '+998 XX XXX XX XX',
+      value: '+998 999026261',
     },
     {
       icon: Mail,

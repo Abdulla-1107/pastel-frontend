@@ -20,6 +20,9 @@ const Cart = () => {
     clearCart();
   };
 
+  console.log(items);
+  
+
   if (items.length === 0) {
     return (
       <div className="min-h-screen flex items-center justify-center">
